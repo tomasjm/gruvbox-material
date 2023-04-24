@@ -2960,6 +2960,7 @@ highlight! link helpCommand Aqua
 highlight! link helpExample Green
 highlight! link helpSpecial Blue
 highlight! link helpSectionDelim Grey
+highlight! link @tag.tsx Red
 highlight! link @constructor.tsx Orange 
 highlight! link @tag.attribute.tsx Blue 
 
