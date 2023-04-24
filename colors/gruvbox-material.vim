@@ -734,6 +734,9 @@ if has('nvim-0.9.0')
   highlight! link @lsp.type.typeParameter TSTypeDefinition
   highlight! link @lsp.type.variable TSVariable
   highlight! link DiagnosticUnnecessary WarningText
+  highlight! link @tag Orange
+  highlight! link @tag.attribute Blue 
+  
 endif
 highlight! link TSModuleInfoGood Green
 highlight! link TSModuleInfoBad Red
