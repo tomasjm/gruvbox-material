@@ -2957,6 +2957,9 @@ highlight! link helpCommand Aqua
 highlight! link helpExample Green
 highlight! link helpSpecial Blue
 highlight! link helpSectionDelim Grey
+highlight! link @tag Orange
+highlight! link @tag.attribute Blue 
+
 " syn_end }}}
 " }}}
 " vim: set sw=2 ts=2 sts=2 et tw=80 ft=vim fdm=marker fmr={{{,}}}:
