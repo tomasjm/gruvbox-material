@@ -627,7 +627,6 @@ highlight! link TSTypeQualifier Orange
 highlight! link TSURI markdownUrl
 highlight! link TSVariable Fg
 highlight! link TSVariableBuiltin PurpleItalic
-if has('nvim-0.8.0')
   highlight! link @annotation TSAnnotation
   highlight! link @attribute TSAttribute
   highlight! link @boolean TSBoolean
@@ -710,7 +709,6 @@ if has('nvim-0.8.0')
   highlight! link @uri TSURI
   highlight! link @variable TSVariable
   highlight! link @variable.builtin TSVariableBuiltin
-endif
 if has('nvim-0.9.0')
   highlight! link @lsp.type.class TSType
   highlight! link @lsp.type.comment TSComment
@@ -2961,9 +2959,4 @@ highlight! link helpSpecial Blue
 highlight! link helpSectionDelim Grey
 " syn_end }}}
 " }}}
-highlight! link @tag Orange 
-highlight! link @tag.attribute blue 
-highlight! link @tag.delimiter TSTagDelimiter
-call gruvbox_material#highlight("@tag", s:palette.orange, s:palette.none, 'bold')
-call gruvbox_material#highlight("@tag.attribute", s:palette.blue, s:palette.none, 'bold')
 " vim: set sw=2 ts=2 sts=2 et tw=80 ft=vim fdm=marker fmr={{{,}}}:
